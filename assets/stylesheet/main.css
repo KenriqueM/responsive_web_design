@@ -1,0 +1,434 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My Reset */
+button {
+  outline: 0;
+  border: 0;
+}
+
+/**************************************
+*************** MY CSS ***************/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+/******** HEADER SECTION ********/
+
+.header {
+  background: #af1641;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+  text-transform: uppercase;
+  font-family: "Varela", sans-serif;
+  color: #fff;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.8rem;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.active,
+a.hover {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 7px;
+  margin-left: 15px;
+}
+
+.active {
+  background: #dc572e;
+}
+
+.nav-bar a:hover {
+  background: #dc572e;
+}
+
+.header-subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Varela", sans-serif;
+  padding: 100px 0 70px 0;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.sub-line {
+  font-size: 1.6rem;
+  padding: 5px 0 0 0;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 0 50px 0;
+  letter-spacing: 1px;
+}
+
+.header-btn {
+  background-color: #dc572e;
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  font-weight: 350;
+  border-radius: 7px;
+  text-transform: uppercase;
+  margin: 30px 0 20px 0;
+  letter-spacing: 0.2rem;
+}
+
+/******** MAIN SECTION ********/
+
+.main {
+  background: #fff;
+}
+
+.main-page {
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  padding: 0 0 70px 0;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #2b3f48;
+  text-transform: uppercase;
+  padding: 5.5rem 0 0.5rem 0;
+}
+
+.main-subline {
+  color: #6f6f6f;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  padding-bottom: 60px;
+}
+
+.main-para {
+  color: #656565;
+  line-height: 1.9;
+}
+
+.main-btn {
+  background-color: #af1641;
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  font-weight: 350;
+  border-radius: 7px;
+  text-transform: uppercase;
+  margin: 30px 0 20px 0;
+  letter-spacing: 0.2rem;
+}
+
+/******** BANNER SECTION ********/
+
+.banner {
+  background-color: #af1641;
+}
+
+.banner-page {
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.banner-img {
+  width: 100%;
+  margin: 4.5rem 0 3rem 0;
+  border-radius: 0.6rem;
+}
+
+.banner-title {
+  font-size: 2.8rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banner-subline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  padding-bottom: 70px;
+}
+
+.banner-para {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  line-height: 1.4;
+}
+.templated {
+  color: #fff;
+}
+
+.foto {
+  color: #fff;
+}
+
+.create {
+  color: #fff;
+}
+
+.banner-btn {
+  background-color: #fff;
+  color: #af1641;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  font-weight: 350;
+  border-radius: 7px;
+  text-transform: uppercase;
+  margin: 3rem 0 5.5rem 0;
+  letter-spacing: 0.2rem;
+}
+
+/******** DONEC SECTION ********/
+
+.donec {
+  background-color: #fff;
+}
+
+.donec-page {
+  text-align: center;
+  font-family: "Varela", sans-serif;
+}
+
+.donec-title {
+  color: #2b3f48;
+  font-size: 2.8rem;
+  padding: 3.5rem 0 0 0;
+  text-transform: uppercase;
+}
+
+.donec-tagline {
+  color: darkgrey;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin: 10px 0 70px 0;
+}
+
+.parent-rows {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 47px 27px;
+}
+
+.box-content {
+  color: #656565;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.donec-btn {
+  background-color: #af1641;
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  font-weight: 350;
+  border-radius: 7px;
+  text-transform: uppercase;
+  margin: 3rem 0 5.5rem 0;
+  letter-spacing: 0.2rem;
+}
+
+/******** FOOTER SECTION ********/
+
+.footer {
+  background-color: #333;
+}
+
+.copyright {
+  text-align: center;
+  padding: 70px 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+  .banner-title {
+    font-size: 20px;
+  }
+
+  .header-nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-bar {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .parent-rows {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .box {
+    margin-top: 20px;
+    padding: 14px 16px;
+  }
+}
